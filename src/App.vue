@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="transform: scale(1);">
     <el-config-provider :locale="zhCn">
       <router-view />
     </el-config-provider>

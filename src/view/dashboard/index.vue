@@ -5,6 +5,7 @@
         <div class="gva-top-card-left">
           <div class="gva-top-card-left-title">早安，管理员，请开始一天的工作吧</div>
           <div class="gva-top-card-left-dot">{{ weatherInfo }}</div>
+          <div id="shadow-root"></div>
           <div class="gva-top-card-left-rows">
             <el-row>
               <el-col :span="8" :xs="24" :sm="8">

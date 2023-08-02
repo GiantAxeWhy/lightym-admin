@@ -37,6 +37,7 @@ async function handleKeepAlive(to) {
 
 router.beforeEach(async(to, from) => {
   const routerStore = useRouterStore()
+  console.log('from',from)
   Nprogress.start()
   const userStore = useUserStore()
   to.meta.matched = [...to.matched]
